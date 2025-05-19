@@ -1,0 +1,29 @@
+==================== SHREDSTORM CHEAT SHEET ====================
+
+OPTIONS:
+1 - Create a new tab
+2 - Search and view existing tabs
+3 - View this cheat sheet
+4 - List all saved tabs
+5 - Exit the application
+
+TAB INPUT FORMAT:
+Enter your tab as a sequence of notes, e.g.:
+E3-A5-e7
+
+Each note starts with a string name (E, A, D, G, B, e) followed by a fret number.
+You can chain notes like: E1A2D3G4B5e6
+
+TECHNIQUES (you can combine them in tab input):
+- h: hammer-on (e.g. E3h5)
+- p: pull-off  (e.g. E5p3)
+- /: slide up  (e.g. E3/5)
+- \: slide down (e.g. E5\3)
+- b: bend      (e.g. G7b9)
+
+NOTES:
+- Don't use spaces between notes.
+- Invalid characters in tab title will be rejected.
+- Tabs are saved in the /tabs directory.
+
+===============================================================

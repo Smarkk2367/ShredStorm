@@ -2,7 +2,6 @@
 #include <algorithm>
 #include "include/ui.h"
 #include "include/tab.h"
-#include "include/argsHandling.h"
 
 bool isValidFileName(const std::string& name)
 {
@@ -15,7 +14,6 @@ bool isValidFileName(const std::string& name)
 
 int main(int argc, char* argv[])
 {
-    shredstorm::handleCommandLineArgs(argc, argv);
     shredstorm::printTitleScreen();
 
     while (true)

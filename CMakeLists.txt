@@ -9,5 +9,4 @@ add_executable(ShredStorm main.cpp
         include/tab.h
         src/tab.cpp
         include/consts.h
-        include/argsHandling.h
-        src/argsHandling.cpp)
+)
